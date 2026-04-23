@@ -20,10 +20,10 @@
         .logo { font-family: 'Playfair Display', serif; font-size: 32px; color: #c5a676; text-decoration: none; font-weight: 600; letter-spacing: -1px; }
         .header-icons { display: flex; gap: 15px; font-size: 18px; }
 
-        /* --- HERO BANNER --- */
+        /* --- HERO BANNER (DENGAN BACKGROUND BARU) --- */
         .hero { 
             position: relative;
-            background-image: url('https://i.imgur.com/N6ungTH.png'); 
+            background-image: url('https://i.imgur.com/w3F57mE.jpeg'); /* Gambar baru terpasang di sini */
             background-size: cover;
             background-position: center;
             min-height: 500px;
@@ -33,11 +33,13 @@
         }
         .hero-content { 
             position: relative; z-index: 2; max-width: 380px; 
-            background: rgba(255, 255, 255, 0.4); padding: 25px;
+            /* Sedikit penyesuaian opacity background teks agar lebih kontras di background baru */
+            background: rgba(255, 255, 255, 0.7); 
+            padding: 25px;
             border-radius: 5px; backdrop-filter: blur(2px);
         }
         .hero-subtitle { font-size: 10px; letter-spacing: 2px; color: #8b7355; margin-bottom: 10px; text-transform: uppercase; font-weight: 600; }
-        .hero-title { font-family: 'Playfair Display', serif; font-size: 36px; line-height: 1.2; margin-bottom: 15px; }
+        .hero-title { font-family: 'Playfair Display', serif; font-size: 36px; line-height: 1.2; margin-bottom: 15px; color: #222; }
         .hero-desc { font-size: 13px; color: #444; margin-bottom: 25px; line-height: 1.6; }
         .btn-gold { background: #c5a676; color: #fff; padding: 12px 25px; text-decoration: none; font-size: 12px; font-weight: 600; display: inline-block; letter-spacing: 1px; }
 
